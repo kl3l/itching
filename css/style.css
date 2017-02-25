@@ -1,8 +1,15 @@
 body {
-	background-color: blue;
+	background-color: aquamarine;
+}
+
+#first-para {
+	font-family: cursive;
+	font-size: 50px;
+	color: blue;
 
 }
 
 #poolgif {
 	height: 100px;
 }
+
