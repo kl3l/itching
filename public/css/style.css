@@ -1,18 +1,101 @@
+/*Homepage*/
+
+#index {
+  height: 100vh;
+  background-color: aquamarine !important;  
+}
+
 .itching2plunge {
 	background-color: aquamarine;
 }
 
-#first-para {
+#first-paragraph {
 	font-family: "Brush Script MT", cursive;
 	font-size: 50px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 30px;
-
+  margin-top: 2rem;
 }
 
 #poolgif {
 	height: 100px;
 }
 
+img {
+  cursor: pointer;
+}
+
+/*KLEL*/
+
+#klel {
+  background-image: url("../images/gothicbanan1.png");
+  background-size: 100%;
+  background-color: pink;    
+}
+
+#first-para {
+  font-size: 40px; 
+  text-align: center;
+  font-family: cursive;
+  color:blue;
+  margin-bottom: 0;
+}
+
+#first-para:hover {
+  color: grey;
+}
+
+#second-para {
+  margin-top: 3rem;
+  font-size: 60px;
+  font-family: sans-serif;
+  color: aquamarine;
+}
+
+#second-para:hover {
+  color: yellow;
+}
+
+p.klel:hover {
+  color: yellow;
+}
+
+#chalkimg {
+  margin-top: 20%;
+}
+
+#chalkimg:hover {
+  border-radius: 50%;
+}
+
+#baconimg {
+  margin-left: 1rem;
+  height: 27rem;
+}
+
+#baconimg:hover {
+  opacity: .5;
+}
+
+#spiderimg {
+  float:right;
+  margin-top: -11rem;
+}
+
+#spiderimg:hover {
+  float: left;
+  height: 350px;
+  margin-top: 0;
+}
+
+#oyaimg {
+  height: 50px;
+  margin-top: 2rem;
+}
+
+#poolimg {
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
