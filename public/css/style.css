@@ -2,25 +2,48 @@
 
 #index {
   height: 100vh;
-  background-color: aquamarine !important;  
 }
 
 .itching2plunge {
-	background-color: aquamarine;
+  background-image: url('../images/plungeback.svg') !important;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #first-paragraph {
-	font-family: "Brush Script MT", cursive;
-	font-size: 50px;
+	font-size: 4rem;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 30px;
   margin-top: 2rem;
+  color: white;
+  line-height: 66%;
+  position: absolute;
+  letter-spacing: 1rem;
+  font-family: sans-serif;
+}
+
+#two {
+  color: #fccfcc;
+  font-size: 3rem;
+}
+
+.one {
+  width: auto;
+  height: 200px;
+  background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 #poolgif {
 	height: 100px;
+}
+
+.homepage-pool{
+  position: relative;
 }
 
 img {
