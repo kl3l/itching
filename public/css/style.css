@@ -6,7 +6,7 @@
 
 .itching2plunge {
   background-image: url('../images/plungeback.svg') !important;
-  height: 100%;
+  min-height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -30,10 +30,14 @@
   font-size: 3rem;
 }
 
+.homepool {
+  background-color: transparent;
+  height: 250px;
+}
+
 .one {
   width: auto;
   height: 200px;
-  background-color: transparent;
   border-radius: 50%;
   cursor: pointer;
 }
