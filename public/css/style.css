@@ -4,6 +4,16 @@
   height: 100vh;
 }
 
+img.itchlogo {
+  filter: invert();
+  opacity: 0.5;
+  width: 56%;
+  padding-top: 3rem;
+  display: block;
+  float: right;
+  margin-right: 2rem;
+}
+
 .itching2plunge {
   background-image: url('../images/plungeback.svg') !important;
   min-height: 100%;
@@ -12,11 +22,11 @@
 }
 
 #first-paragraph {
-	font-size: 4rem;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 30px;
+  font-size: 4rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
   margin-top: 2rem;
   color: white;
   line-height: 66%;
@@ -43,7 +53,7 @@
 }
 
 #poolgif {
-	height: 100px;
+  height: 100px;
 }
 
 .homepage-pool{
