@@ -1,5 +1,4 @@
 require 'sinatra'
-require 'dotenv/load'
 require 'pony'
 
 set :public_dir, Proc.new { File.join(root, "..", "public") }
